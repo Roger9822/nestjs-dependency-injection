@@ -35,3 +35,7 @@ POST ->  https://nestjs-dependency-injection.onrender.com/orders
   "productId": 2
 }
 GET https://nestjs-dependency-injection.onrender.com/orders
+
+
+
+Dependency Injection improves code reusability in NestJS by allowing services to be shared across multiple modules instead of creating them again and again. In this assignment, services like UsersService, ProductsService, and a shared LoggerService are injected into controllers and other services. The OrdersService uses injected user and product services to create orders without duplicating logic. This makes the code cleaner, reusable, and easier to maintain.
